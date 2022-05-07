@@ -43,11 +43,12 @@
 }
 
 
+
 .about-us {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+ padding: 2rem;
  
   
   h3 {
@@ -58,7 +59,7 @@
   }
   
   p {
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-size: clamp(1rem, 1.5vw, 1.7rem);
   }
 }
 
@@ -118,7 +119,7 @@
 
   p{
       color: var(--stormgray);
-	  margin: .7em;
+	 margin-bottom: .7em ;
 
   }
   
@@ -149,10 +150,12 @@ h1.numbered::before {
 
 	content: 'Where it all begins at ' counter(section);
 }
-p {
-	margin-top: 2.4rem;
-	margin-bottom: 2.4rem;
-}
+// p {
+// 	margin-top: 2.4rem;
+// 	margin-bottom: 2.4rem;
+// }
+
+
 @media (min-width: 960px) {
 	h1 {
 		font-size: 9rem;
@@ -377,6 +380,15 @@ svg {
 		}
     }
     
+
+// Carousel
+.carousel{
+	margin-top: 0;
+	margin-bottom: 4em;
+}
+
+
+
 
 
 

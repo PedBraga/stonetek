@@ -11,7 +11,6 @@
 
 
 
-
 h1 {
   margin-top: 2rem;
   position: relative;
@@ -80,15 +79,26 @@ h1::before {
       }
 
       .about-res{
-        font-size: .98rem;
+        font-size: 1rem;
+ 
       }
 
       
       
 
 
+
 }
 
+.about-res{
+  color: var(--stormgray);
+}
+
+
+.hov-txt{
+  font-size: .8rem;
+  color: #757575;
+}
   
   .item {
     flex: 1;
@@ -99,7 +109,7 @@ h1::before {
     transition: flex 0.8s ease;
   
     &:hover{
-      flex: 7;
+      flex: 6;
     }
   }
   
@@ -110,18 +120,22 @@ h1::before {
 
   
   .item-2 { 
-    background-image: url('../imgs/resource/limestone.jpg');
+    background-image: url('../imgs/resource/quartz!.jpg');
   }
   
   .item-3 { 
-    background-image: url('../imgs/resource/marble.jpg');
+    background-image: url('../imgs/resource/marble!.jpg');
   }
   
   .item-4 { 
-    background-image: url('../imgs/resource/quartz.jpg');
+    background-image: url('../imgs/resource/marble.jpg');
   }
   
- 
+  .item-5{
+    background-image: url('../imgs/resource/soapstone.jpg');
+  }
+
+
   .social{
     position: absolute;
     right: 35px;
@@ -136,7 +150,7 @@ h1::before {
 
 //   Text that display on the images.
 
-  .d-text-1 , .d-text-2 , .d-text-3 , .d-text-4{
+  .d-text-1 , .d-text-2 , .d-text-3 , .d-text-4, .d-text-5{
       display: none;
   
   }

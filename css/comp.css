@@ -56,7 +56,7 @@
 }
 
 .about-us p {
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 1.7rem);
 }
 
 .image-wrapper {
@@ -112,7 +112,7 @@
 
 .about-desc p {
   color: var(--stormgray);
-  margin: .7em;
+  margin-bottom: .7em;
 }
 
 h1 {
@@ -137,11 +137,6 @@ h1.numbered::before {
   display: block;
   opacity: 0.25;
   content: "Where it all begins at " counter(section);
-}
-
-p {
-  margin-top: 2.4rem;
-  margin-bottom: 2.4rem;
 }
 
 @media (min-width: 960px) {
@@ -422,6 +417,11 @@ svg {
     padding-right: 2em;
     padding-left: 2em;
   }
+}
+
+.carousel {
+  margin-top: 0;
+  margin-bottom: 4em;
 }
 
 .reviews {
