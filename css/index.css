@@ -38,6 +38,7 @@ img{
 .wrapper{
     max-width: 1600px;
     margin: 0 auto;
+
 }
 
   .dropdown-menu{
@@ -191,8 +192,12 @@ img{
   {
     letter-spacing: 6px;
   }
+
+
+
   .social
   {
+
      margin-top: 2em; 
     position: absolute;
     z-index: 10;
@@ -236,7 +241,14 @@ img{
     {
       font-size: 2em;
     }
+
   }
   
   
-  
+    @media screen and (min-width: 100px) and (max-width: 640px) {
+
+      .text h1{
+        font-size: 3rem;
+      }
+
+    }
