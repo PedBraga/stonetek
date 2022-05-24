@@ -196,7 +196,7 @@ html, body {
   -ms-grid-column-span: 2;
   grid-area: showcase;
   min-height: 400px;
-  background: url(/imgs/care/shinyedge.JPG);
+  background: url(../imgs/care/shinyedge.JPG);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -283,7 +283,7 @@ html, body {
   overflow: hidden;
   width: auto;
   text-align: center;
-  background-image: url("/imgs/care/dirty.jpg");
+  background-image: url("../imgs/care/dirty.jpg");
   height: 600px;
   width: 100%;
   background-position: center;
