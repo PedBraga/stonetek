@@ -28,7 +28,9 @@ body {
   align-items: end;
   justify-content: end;
 
-
+  -webkit-justify-content: flex-end;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
   .fade-in {
     animation: fadeIn linear 2.9s;
     -webkit-animation: fadeIn linear 2.9s;
