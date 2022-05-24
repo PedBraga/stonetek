@@ -13,6 +13,9 @@ var processGraphMouseover = function (event) {
       processGraphs[pg].style.opacity = 0.5;
     }
   }
+
+
+
   for (pd = 0, pdl = processDetails.length; pd < pdl; pd++) {
     if (processDetails[pd].classList.contains(event.target.getAttribute('class')) && event.type === 'mouseover') {
       processDetails[pd].style.opacity = 1;
@@ -21,6 +24,8 @@ var processGraphMouseover = function (event) {
     }
   }
 };
+
+
 var processGraphMouseout = function (event) {
   for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
     processGraphs[pg].removeAttribute('style');

@@ -1,0 +1,236 @@
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+body {
+  background-color: white;
+}
+
+.kitchen-hero {
+
+  height: 80vh;
+  background-image: linear-gradient(rgba(64, 56, 56, 0.5), rgba(87, 87, 87, 0.5)),
+    // TODO, change this for Mediam and Small screen. 
+    url('/imgs/products/kitchen-top.jpeg');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+
+
+  .fade-in {
+    animation: fadeIn linear 2.9s;
+    -webkit-animation: fadeIn linear 2.9s;
+    -moz-animation: fadeIn linear 2.9s;
+    -o-animation: fadeIn linear 2.9s;
+    -ms-animation: fadeIn linear 2.9s;
+  }
+
+  h1 {
+    color: var(--graywater);
+    font-size: 4rem;
+
+  }
+
+  p {
+    color: var(--graywater);
+    font-size: 1.1rem;
+
+  }
+
+
+
+
+  .container-fluid {
+    margin-bottom: 2em;
+
+  }
+
+
+
+
+
+  @media screen and (min-width: 100px) and (max-width: 640px) {
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+
+    max-height: 60vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    // box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+
+
+  }
+
+
+
+  @media screen and (min-width: 640px) and (max-width: 940px) {
+
+
+    max-height: 40vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    // box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+
+
+  }
+}
+
+
+
+
+
+
+
+
+.banner-para-part{
+  margin-top: 6em;
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+  h3 {
+  
+    color: #908f8f;
+    font-size: 4rem;
+  }
+
+  p{
+    font-size: 2em;
+    color: #bababa;
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 640px) {
+
+    h3 {
+  
+      color: #908f8f;
+      font-size: 3rem;
+    }
+  
+    p{
+      font-size: 1.3em;
+      color: #bababa;
+    }
+  
+
+
+  }
+  
+}
+
+
+
+.products {
+
+  margin-top: 4em;
+
+  p {
+    font-size: .99rem;
+
+  }
+}
+
+
+
+.top-row {
+  margin-bottom: 1em;
+}
+
+
+hr {
+  border: 0;
+
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  list-style: none;
+}
+
+.breadcrumb-list li {
+  font-size: 0.85rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.breadcrumb-item.active {
+  color: black;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: '/';
+  display: inline-block;
+  padding: 0 0.5rem;
+  color: grey;
+}
+
+ul {
+  padding: 0;
+}
+
+.product-image img,
+.image-list img {
+  width: 100%;
+}
+
+.product-image {
+  display: block;
+}
+
+.product-image img.active {
+  display: block;
+  margin: 0 0 0.75rem 0;
+}
+
+.image-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.image-list li {
+  margin: 0 0.75rem 0 0;
+  flex-basis: 100%;
+  list-style: none;
+}
+
+.image-list li:nth-child(3) {
+  margin: 0;
+}
+
+.image-list img {
+  height: 10rem;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.image-list img:hover {
+  opacity: 0.7;
+}
