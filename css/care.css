@@ -251,8 +251,6 @@ html, body {
   -ms-grid-column: 3;
   grid-area: box-a;
   background-color: #787A7A;
-  -webkit-box-shadow: inset -1.2em .20em  50px white;
-          box-shadow: inset -1.2em .20em  50px white;
 }
 
 .box-b {
@@ -391,8 +389,6 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   text-align: left;
-  -webkit-box-shadow: inset -1px -4px 5px var(--graywater);
-          box-shadow: inset -1px -4px 5px var(--graywater);
 }
 
 .info-title-text {
