@@ -104,8 +104,7 @@ img{
 
   .showcase
   {
-    
- 
+
     position: absolute;
     right: 0;
     width: 100%;
@@ -151,10 +150,10 @@ img{
   
   .text h1
   {
-    color: #ebebeb;
+    color: #ffffff;
     font-size: 5em;
     font-weight: 800;
-    color: #fff;
+  
     line-height: 1em;
     text-transform: uppercase;
   }
@@ -162,14 +161,14 @@ img{
   {
     font-size: 4em;
     font-weight: 700;
-    color: #fff;
+    color: rgb(235, 227, 227);
     line-height: 1em;
     text-transform: uppercase;
   }
   .text p
   {
     font-size: 1.1em;
-    color: #ebebeb;
+    color: #ffffff;
     margin: 20px 0;
     font-weight: 400;
     max-width: 700px;
