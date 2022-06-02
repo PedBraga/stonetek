@@ -78,12 +78,12 @@
                                     <li><a class="dropdown-item" href="resources.html#quartz">Quartz</a></li>
                                     <li><a class="dropdown-item" href="resources.html#marble">Marble</a></li>
                                     <li><a class="dropdown-item" href="resources.html#quartzine"> Quartzite</a></li>
-    
+
                                     <li><a class="dropdown-item" href="resources.html#soapstone">Soapstone</a></li>
-                                 
+
                                     <li><a class="dropdown-item" href="resources.html#granite">Granite</a></li>
-                        
-                                   
+
+
                                 </ul>
                             </li>
 
@@ -205,43 +205,43 @@
             <script>
 
 
-console.clear();
+                console.clear();
 
-var processGraphs = document.querySelectorAll('.process polygon');
-var processDetails = document.querySelectorAll('.process-details > div');
-var processGraphMouseover = function (event) {
-  for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
-    if (processGraphs[pg] === event.target && event.type === 'mouseover') {
-      processGraphs[pg].style.opacity = 1;
-    } else {
-      processGraphs[pg].style.opacity = 0.5;
-    }
-  }
-
-
-
-  for (pd = 0, pdl = processDetails.length; pd < pdl; pd++) {
-    if (processDetails[pd].classList.contains(event.target.getAttribute('class')) && event.type === 'mouseover') {
-      processDetails[pd].style.opacity = 1;
-    } else {
-      processDetails[pd].style.opacity = 0.5;
-    }
-  }
-};
+                var processGraphs = document.querySelectorAll('.process polygon');
+                var processDetails = document.querySelectorAll('.process-details > div');
+                var processGraphMouseover = function (event) {
+                    for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
+                        if (processGraphs[pg] === event.target && event.type === 'mouseover') {
+                            processGraphs[pg].style.opacity = 1;
+                        } else {
+                            processGraphs[pg].style.opacity = 0.5;
+                        }
+                    }
 
 
-var processGraphMouseout = function (event) {
-  for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
-    processGraphs[pg].removeAttribute('style');
-  }
-  for (pd = 0, pdl = processDetails.length; pd < pdl; pd++) {
-    processDetails[pd].removeAttribute('style');
-  }
-};
-for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
-  processGraphs[pg].addEventListener('mouseover', processGraphMouseover);
-  processGraphs[pg].addEventListener('mouseout', processGraphMouseout);
-}
+
+                    for (pd = 0, pdl = processDetails.length; pd < pdl; pd++) {
+                        if (processDetails[pd].classList.contains(event.target.getAttribute('class')) && event.type === 'mouseover') {
+                            processDetails[pd].style.opacity = 1;
+                        } else {
+                            processDetails[pd].style.opacity = 0.5;
+                        }
+                    }
+                };
+
+
+                var processGraphMouseout = function (event) {
+                    for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
+                        processGraphs[pg].removeAttribute('style');
+                    }
+                    for (pd = 0, pdl = processDetails.length; pd < pdl; pd++) {
+                        processDetails[pd].removeAttribute('style');
+                    }
+                };
+                for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
+                    processGraphs[pg].addEventListener('mouseover', processGraphMouseover);
+                    processGraphs[pg].addEventListener('mouseout', processGraphMouseout);
+                }
 
 
 
@@ -252,56 +252,56 @@ for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
 
 
 
-    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-           
-        </ol>
+        <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 
-        
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="imgs/company/slide1.JPG" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
-                  </div>
-            </div>
+            </ol>
 
 
-            <div class="carousel-item">
-                <img class="d-block w-100" src="imgs/company/slide2.JPG" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
-                  </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imgs/company/slide1.JPG" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs/company/slide2.JPG" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs/company/slide3.JPG" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs/company/slide4.JPG" alt="Fourth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs/company/slide5.JPG" alt="Fith slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="imgs/company/slide3.JPG" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
-                  </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="imgs/company/slide4.JPG" alt="Fourth slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
-                  </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="imgs/company/slide5.JPG" alt="Fith slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
-                  </div>
-            </div>
-        </div>
 
 
 
@@ -313,7 +313,7 @@ for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-            
+
         </div>
 
 
@@ -417,7 +417,7 @@ for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
                                     <a href="products.html#quartz-stone" class="text-reset">Quartz</a>
                                 </p>
                                 <p>
-                                    <a href="products.html#soapstone-stones" class="text-reset">Soapstones</a>
+                                    <a href="products.html#soapstone-stone" class="text-reset">Soapstones</a>
                                 </p>
                                 <p>
                                     <a href="products.html#sinks" class="text-reset">Faucets</a>
@@ -435,7 +435,11 @@ for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
                                 <h6 class="text-uppercase fw-bold mb-4" id="contact-us">
                                     Contact
                                 </h6>
-                                <p><i class="fas fa-home me-3"></i> 176 Springfield st. New Bedford, MA </p>
+
+                                <p>
+                                    <i class="fas fa-home me-3"></i> 176 Springfield st. New Bedford, MA
+                                </p>
+
                                 <p>
                                     <i class="fas fa-envelope me-3"></i>
                                     info@stonetekinc.com
@@ -504,7 +508,7 @@ for (var pg = 0, pgl = processGraphs.length; pg < pgl; pg++) {
 
 
         <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-   
+
         <script src="js/script.js"></script>
 
 
