@@ -89,11 +89,15 @@
                                     Resources
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="resources.html#granite">Granite</a></li>
-                                    <li><a class="dropdown-item" href="resources.html#limestone">Limestone,
-                                            Travertine</a></li>
-                                    <li><a class="dropdown-item" href="resources.html#marble">Marble</a></li>
                                     <li><a class="dropdown-item" href="resources.html#quartz">Quartz</a></li>
+                                    <li><a class="dropdown-item" href="resources.html#marble">Marble</a></li>
+                                    <li><a class="dropdown-item" href="resources.html#quartzine"> Quartzite</a></li>
+
+                                    <li><a class="dropdown-item" href="resources.html#soapstone">Soapstone</a></li>
+                                 
+                                    <li><a class="dropdown-item" href="resources.html#granite">Granite</a></li>
+                        
+                                   
                                 </ul>
                             </li>
 
@@ -140,11 +144,10 @@
 
         <div class="container">
 
-            <p class="hov-txt">Hover over texture learn more.</p>
+            <p class="hov-txt">Hover over texture to learn more.</p>
             <div class="gallery-wrap">
-
-                <div class="item item-2">
-                    <div class=" overlay d-text-2" id="limestone">
+                <div class="item item-1">
+                    <div class=" overlay d-text-1" id="quartz">
                         <h4>Quartz </h4>
                         <p><b>Quartz</b> is a very porous material which offers a more rustic or aged appearance.
                             Caution should be
@@ -166,12 +169,11 @@
                             tempora nisi deleniti dolor eligendi nostrum tenetur tempore.
                         </p>
                     </div>
-
-
-
                 </div>
-                <div class="item item-3">
-                    <div class=" overlay d-text-3" id="marble">
+
+
+                <div class="item item-2">
+                    <div class=" overlay d-text-2" id="marble">
                         <h4>Marble</h4>
                         <p>
                             Marble offers an upscale and classic appearance. Its rich color tones, mirror-like finish
@@ -193,8 +195,8 @@
                     </div>
 
                 </div>
-                <div class="item item-4">
-                    <div class=" overlay d-text-4" id="quartz">
+                <div class="item item-3">
+                    <div class=" overlay d-text-3" id="quartzine">
                         <h4>Quartzite</h4>
                         <p>Quartzite is very hard, metamorphic rock which was originally sandstone. Through heating and
                             pressure usually related to tectonic compression within orogenic belts, the original quartz
@@ -216,8 +218,34 @@
 
 
 
-                <div class="item item-1" id="granite">
-                    <div class=" overlay d-text-1">
+         
+
+                <div class="item item-4" id="soapstone">
+                    <div class=" overlay d-text-4">
+                        <h4>Soapstone</h4>
+                        <p>
+                            A relatively soft natural stone largely comprised of mineral talc, yet very dense and highly
+                            heat resistant. It is low maintenance, stain resistant , and requires no need for sealants.
+                            Well suited for for countertops, sinks and bars. Its range of hues are darker on the
+                            spectrum providing a rustic feel.
+                        </p>
+                        <p>
+                            Choose a qualified company like StoneTek to supply, fabricate, and install
+                            your soapstone
+                            countertops. A StoneTek professional can help you select the right color and pattern for
+                            your decor and help you choose the right backsplash and sink style. StoneTek can also
+                            provide you with the edge profile you desire, and finish the surface to bring out its unique
+                            characteristics.
+                        </p>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="item item-5" id="granite">
+                    <div class=" overlay d-text-5">
                         <h4>Granite</h4>
                         <p> The second hardest stone (diamond being the first) and
                             formed from molten rock found worldwide. Minerals form the patterns in the
@@ -250,28 +278,6 @@
 
                 </div>
 
-                <div class="item item-5" id="soapstone">
-                    <div class=" overlay d-text-5">
-                        <h4>Soapstone</h4>
-                        <p>
-                            A relatively soft natural stone largely comprised of mineral talc, yet very dense and highly
-                            heat resistant. It is low maintenance, stain resistant , and requires no need for sealants.
-                            Well suited for for countertops, sinks and bars. Its range of hues are darker on the
-                            spectrum providing a rustic feel.
-                        </p>
-                        <p>
-                            Choose a qualified company like StoneTek to supply, fabricate, and install
-                            your soapstone
-                            countertops. A StoneTek professional can help you select the right color and pattern for
-                            your decor and help you choose the right backsplash and sink style. StoneTek can also
-                            provide you with the edge profile you desire, and finish the surface to bring out its unique
-                            characteristics.
-                        </p>
-
-
-                    </div>
-                </div>
-
 
             </div>
         </div>
@@ -297,6 +303,7 @@
                     $(".d-text-2").css("display", "none");
                 }
             });
+
             $(".item-3").on({
 
                 mouseenter: function () {
